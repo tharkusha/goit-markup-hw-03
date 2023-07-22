@@ -3,6 +3,32 @@ ol {
     list-style:none;
 }*/
 
+.page-header {
+    display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1128px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
 .list {
     list-style: none;
 }
@@ -41,7 +67,6 @@ button {
     font-weight: 500;
     color: #2E2F42;
 }
-
 
 h1 {
     font-family: Roboto, Bolt;
@@ -91,7 +116,6 @@ h3 {
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
-
 }
 
 h2 {
@@ -113,7 +137,6 @@ h2 {
         line-height: 24px;
         letter-spacing: 2%;
         color: #434455;
-
 }
 
 footer {
@@ -127,6 +150,7 @@ font-family: Roboto, Regular;
     letter-spacing: 2%;
     color: #F4F4FD;
 }
+
 span {
 color: #4D5AE5;
 }
