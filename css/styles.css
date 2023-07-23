@@ -3,9 +3,43 @@ ol {
     list-style:none;
 }*/
 
+.ul, 
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.img {
+    display: block;
+}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .page-header {
     display: flex;
+    align-items: center;
 }
+.header-nav {
+    display: flex;  
+    align-items: center;
+}
+
+.first-container {
+width: 1440px;
+height: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
 h1,
 h2,
@@ -20,7 +54,7 @@ p {
     margin: 0;
     padding-left: 0;
 }
-
+/*
 .container {
     max-width: 1128px;
         padding-left: 15px;
@@ -28,6 +62,7 @@ p {
         margin-left: auto;
         margin-right: auto;
 }
+*/
 
 .list {
     list-style: none;
@@ -45,11 +80,15 @@ p {
     line-height: 21px;
     text-transform: uppercase;
     color: #2E2F42;
+    margin-left: 156px;
+    margin-right: 24px;
+    display: block;
 }
 
 button {
     cursor: pointer;
    }
+
 .contact {
     font-family: Roboto, Regular;
     line-height: 24px;
@@ -57,7 +96,7 @@ button {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
-    }
+        }
 
 .menu-link {
     font-family: Roboto, Medium;
@@ -75,7 +114,9 @@ h1 {
     Line-Height: 60px;
     letter-spacing: 2%;
     color: #FFFFFF;
-}
+    width: 496px;
+    display: block;
+       }
 
 .modal-open-buttom {
     font-family: Roboto, Medium;
@@ -89,11 +130,18 @@ h1 {
     background-color: #4D5AE5;
     border-radius: 4px;
     }
-    
-    .section-one {
-        background-color: #2E2F42;
-    }
+.modal-open-buttom:hover,
+.modal-open-buttom:focus {
+    background-color: #404BBF;
+}
 
+    
+   .section-one {
+        background-color: #2E2F42;
+                               }
+                      
+
+    
 .section-zero {
     background-color: #FFFFFF;
 }
@@ -174,7 +222,8 @@ color: #4D5AE5;
         height: 48px;
         width: auto;
         background-color: #E7E9FC;
-        border-radius: 4px;}
+        border-radius: 4px;
+       }
 
 .button:hover,
 .button:focus {
@@ -185,3 +234,28 @@ color: #4D5AE5;
 .portoground {
     background-color: #FFFFFF;
     }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .li-address {
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
+        align-items: center;
+        gap: 40px;
+        line-height: 1.5;
+        }
+        
+       .headerone-button {
+        text-align: center;
+        display: block;
+                margin-top: 188px;
+        margin-bottom: 162px;
+        gap: 48px;
+        
+       }
+   
